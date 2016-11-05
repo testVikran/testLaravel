@@ -387,4 +387,4 @@ Cache::config('_cake_model_', array(
 	'serialize' => ($engine === 'File'),
 	'duration' => $duration
 ));
-define('ABSOLUTE_URL',FULL_BASE_URL.'/cakephp');
+define('ABSOLUTE_URL',FULL_BASE_URL.'/testLaravel');
