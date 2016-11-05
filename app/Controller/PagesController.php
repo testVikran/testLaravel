@@ -86,6 +86,7 @@ class PagesController extends AppController {
 		if ($this->data) {
 			$data['hotel_id'] = $this->data['hotel'];
 			$data['comment'] = $this->data['comment'];
+			$data['user_id'] = $this->Session->read('User.id');
 			if($this->Comment->save($data)){
 				return true;
 			} else {
