@@ -1,0 +1,292 @@
+2016-11-04 12:12:16 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/images/money3.jpg
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-05 12:59:23 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/%3Cpre%20class=
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-05 12:59:24 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/%3Cpre%20class=
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-05 13:03:38 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/cakephp/app/View/Pages/home.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Pages/home.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-11-05 14:40:59 Error: [NotFoundException] Not Found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#4 /var/www/html/cakephp/app/Controller/PagesController.php(68): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-11-05 14:41:30 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/cakephp/app/View/Pages/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Pages/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-11-05 14:42:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/cakephp/app/View/Pages/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Pages/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-11-05 14:42:21 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/cakephp/app/View/Pages/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Pages/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-11-05 14:42:56 Error: [NotFoundException] Not Found
+Request URL: /cakephp/pages/logins
+Stack Trace:
+#0 [internal function]: PagesController->display('logins')
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-05 14:43:32 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/cakephp/app/View/Pages/index.ctp, line 28]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Pages/index.ctp, line 28
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-11-05 14:43:33 Error: [NotFoundException] Not Found
+Request URL: /cakephp/pages/logins
+Stack Trace:
+#0 [internal function]: PagesController->display('logins')
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-05 14:47:34 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-05 14:47:47 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-05 14:48:29 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-05 14:48:52 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-05 14:49:06 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-05 14:49:11 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-05 14:49:45 Error: Fatal Error (1): Call to undefined method PagesController::_import() in [/var/www/html/cakephp/app/Controller/PagesController.php, line 56]
+2016-11-05 14:49:45 Error: [FatalErrorException] Call to undefined method PagesController::_import()
+Request URL: /cakephp/pages/logins
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/c...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/c...', 56, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/c...', 56, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-05 14:53:32 Error: [MissingControllerException] Controller class PinController could not be found.
+Exception Attributes: array (
+  'class' => 'PinController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Pin
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-05 14:58:11 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/html/cakephp/app/Controller/PagesController.php, line 48]
+2016-11-05 14:58:11 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 48, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 48, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-05 14:58:21 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/html/cakephp/app/Controller/PagesController.php, line 55]
+2016-11-05 14:58:21 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 55, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 55, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-05 15:23:42 Error: [MissingActionException] Action PagesController::deshBoard() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'deshBoard',
+)
+Request URL: /cakephp/pages/deshBoard
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-05 15:31:29 Error: [MissingActionException] Action PagesController::addComment() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'addComment',
+)
+Request URL: /cakephp/pages/addComment
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-05 15:44:56 Error: [MissingActionException] Action Controller::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'Controller',
+  'action' => 'index',
+)
+Request URL: /cakephp/%5C
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(Controller), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-05 15:53:39 Error: Fatal Error (4): syntax error, unexpected ''group'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/html/cakephp/app/Controller/PagesController.php, line 51]
+2016-11-05 15:53:39 Error: [FatalErrorException] syntax error, unexpected ''group'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 51, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 51, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-05 15:56:07 Error: Fatal Error (1): Call to undefined function group_concat() in [/var/www/html/cakephp/app/View/Pages/index.ctp, line 39]
+2016-11-05 15:56:07 Error: [FatalErrorException] Call to undefined function group_concat()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/c...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/c...', 39, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/c...', 39, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
